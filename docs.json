@@ -267,27 +267,5 @@
       "icon": "discord",
       "url": "https://discord.gg/orca-so"
     }
-  ],
-  "footer": {
-    "socials": {
-      "discord": "https://discord.gg/orca-so",
-      "x": "https://twitter.com/orca_so",
-      "github": "https://github.com/orca-so"
-    },
-    "links": [
-      {
-        "header": "Orca",
-        "items": [
-          {
-            "label": "Launch App",
-            "href": "https://www.orca.so"
-          },
-          {
-            "label": "Blog",
-            "href": "https://orca.so/blog"
-          }
-        ]
-      }
-    ]
-  }
+  ]
 }
