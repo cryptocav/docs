@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
+  "theme": "maple",
   "name": "Orca",
   "logo": {
     "dark": "/logo/orca-logo.png",
@@ -18,7 +18,7 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Discord",
         "href": "https://discord.gg/orca-so"
       }
     ],
@@ -31,39 +31,25 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "getting-started/welcome-to-orca",
-          "getting-started/supported-wallets"
-        ]
+        "group": "",
+        "pages": ["index"]
       },
       {
-        "group": "Trading",
-        "pages": [
-          "trading/overview",
-          "trading/how-to-swap-solana",
-          "trading/understanding-slippage"
-        ]
-      },
-      {
-        "group": "Liquidity",
+        "group": "Products",
         "pages": [
           "liquidity/overview",
+          "token-creators/splash-pools",
+          "token-creators/clmm-pools"
+        ]
+      },
+      {
+        "group": "User Guide",
+        "pages": [
+          "trading/how-to-swap-solana",
           "liquidity/beginner-guide",
           "liquidity/full-range-position",
           "liquidity/custom-range-position",
-          "liquidity/managing-portfolio",
-          "liquidity/harvesting-yield"
-        ]
-      },
-      {
-        "group": "Pools",
-        "pages": [
-          "liquidity/creating-pool-tutorial",
-          "token-creators/splash-pools",
-          "token-creators/clmm-pools",
-          "liquidity/adaptive-fee-pools"
+          "liquidity/creating-pool-tutorial"
         ]
       },
       {
@@ -71,29 +57,20 @@
         "pages": [
           "token-creators/overview",
           "token-creators/token-creation-tool",
-          "token-creators/orca-token-list",
-          "token-creators/adding-rewards"
+          "token-creators/orca-token-list"
         ]
       },
       {
-        "group": "Governance",
-        "pages": [
-          "staking/governance",
-          "staking/xorca-overview",
-          "staking/dao-council"
-        ]
-      },
-      {
-        "group": "Developers",
+        "group": "Developer Guide",
         "pages": [
           "reference/developer-docs",
-          "reference/integrations",
-          "reference/definitions"
+          "reference/integrations"
         ]
       },
       {
-        "group": "Help",
+        "group": "Resources",
         "pages": [
+          "staking/governance",
           "troubleshooting/faqs",
           "troubleshooting/contact-support"
         ]
