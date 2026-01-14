@@ -11,6 +11,17 @@
     "light": "#2dd4bf",
     "dark": "#0d9488"
   },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
+  },
+  "background": {
+    "decoration": "gradient"
+  },
   "appearance": {
     "default": "dark"
   },
