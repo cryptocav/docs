@@ -267,5 +267,12 @@
       "icon": "discord",
       "url": "https://discord.gg/orca-so"
     }
-  ]
+  ],
+  "footer": {
+    "socials": {
+      "discord": "https://discord.gg/orca-so",
+      "x": "https://twitter.com/orca_so",
+      "github": "https://github.com/orca-so"
+    }
+  }
 }
