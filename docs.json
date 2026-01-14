@@ -1,122 +1,199 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "Orca",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#FF5F00",
+    "light": "#FF8A4C",
+    "dark": "#CC4C00",
+    "background": {
+      "dark": "#0f0f0f",
+      "light": "#ffffff"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "App",
+      "url": "https://www.orca.so"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Launch App",
+    "url": "https://www.orca.so"
+  },
+  "anchors": [
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/orca-so"
+    },
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/orca-so"
+    }
+  ],
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "getting-started/welcome-to-orca",
+              "getting-started/supported-wallets",
+              "getting-started/eclipse-connecting",
+              "getting-started/eclipse-getting-started",
+              "getting-started/eclipse-bridging-eth",
+              "getting-started/eclipse-bridging-solana",
+              "getting-started/eclipse-getting-eth-for-gas",
+              "getting-started/eclipse-faq",
+              "getting-started/eclipse-overview",
+              "getting-started/eclipse-introduction"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Trading",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "trading/overview",
+              "trading/how-to-guides",
+              "trading/how-to-swap-solana",
+              "trading/range-orders-solana",
+              "trading/understanding-slippage",
+              "trading/eclipse-overview",
+              "trading/eclipse-how-to-guides",
+              "trading/eclipse-how-to-swap",
+              "trading/eclipse-range-orders"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Providing Liquidity",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "liquidity/overview",
+              "liquidity/beginner-guide",
+              "liquidity/full-range-position",
+              "liquidity/advanced-guide",
+              "liquidity/custom-range-position",
+              "liquidity/managing-portfolio",
+              "liquidity/position-sidebar",
+              "liquidity/adding-liquidity",
+              "liquidity/withdrawing-liquidity",
+              "liquidity/harvesting-yield",
+              "liquidity/closing-position",
+              "liquidity/creating-alerts",
+              "liquidity/terminal-guides",
+              "liquidity/terminal-overview",
+              "liquidity/price-chart-interface",
+              "liquidity/creating-pool-tutorial",
+              "liquidity/understanding-impermanent-loss",
+              "liquidity/adaptive-fee-pools",
+              "liquidity/trading-fees",
+              "liquidity/trading-fees-info",
+              "liquidity/ticks-and-fee-tiers",
+              "liquidity/harvest-yield-legacy",
+              "liquidity/pool-tutorial-legacy",
+              "liquidity/eclipse-overview",
+              "liquidity/eclipse-beginner-guide",
+              "liquidity/eclipse-full-range-position",
+              "liquidity/eclipse-advanced-guide",
+              "liquidity/eclipse-custom-range-position",
+              "liquidity/eclipse-managing-portfolio",
+              "liquidity/eclipse-portfolio-sidebar",
+              "liquidity/eclipse-adding-liquidity",
+              "liquidity/eclipse-withdrawing-liquidity",
+              "liquidity/eclipse-harvesting-yield",
+              "liquidity/eclipse-closing-position"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Token Creators",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "token-creators/overview",
+              "token-creators/how-to-guides",
+              "token-creators/token-creation-tool",
+              "token-creators/splash-pools",
+              "token-creators/clmm-pools",
+              "token-creators/orca-token-list",
+              "token-creators/jupiter-strict-list",
+              "token-creators/coingecko-listing",
+              "token-creators/adding-rewards",
+              "token-creators/token-extensions",
+              "token-creators/asset-listers-legacy",
+              "token-creators/coingecko-legacy",
+              "token-creators/token-list-legacy",
+              "token-creators/eclipse-how-to-guides",
+              "token-creators/eclipse-overview",
+              "token-creators/eclipse-token-creation-tool",
+              "token-creators/eclipse-splash-pools",
+              "token-creators/eclipse-clmm-pools",
+              "token-creators/eclipse-orca-token-list",
+              "token-creators/eclipse-coingecko-listing",
+              "token-creators/eclipse-adding-rewards"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Staking & Governance",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "staking/xorca-overview",
+              "staking/staking-faq",
+              "staking/governance-overview",
+              "staking/governance",
+              "staking/dao-council",
+              "staking/governance-tutorials",
+              "staking/governance-v0-guide",
+              "staking/token-treasury",
+              "staking/governance-how-to",
+              "staking/how-to-participate",
+              "staking/contribution-guidelines",
+              "staking/proposal-guidelines"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/overview",
+              "reference/definitions",
+              "reference/integrations",
+              "reference/developer-docs",
+              "reference/educational-docs",
+              "reference/useful-info",
+              "reference/pool-network-fees",
+              "reference/nfts-profile-pictures",
+              "reference/brand-assets",
+              "reference/solana-overview",
+              "reference/eclipse-builders"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/faqs",
+              "troubleshooting/additional-faqs",
+              "troubleshooting/burned-nfts",
+              "troubleshooting/contact-support",
+              "troubleshooting/blocked-locations"
+            ]
+          },
+          {
+            "group": "Wavebreak",
+            "pages": [
+              "wavebreak/what-is-wavebreak",
+              "wavebreak/rewards-faq"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  "footerSocials": {
+    "twitter": "https://twitter.com/orca_so",
+    "discord": "https://discord.gg/orca-so",
+    "github": "https://github.com/orca-so"
   }
 }
