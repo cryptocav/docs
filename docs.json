@@ -3,8 +3,8 @@
   "theme": "palm",
   "name": "Orca",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/orca-logo.png",
+    "light": "/logo/orca-logo.png"
   },
   "favicon": "/favicon.png",
   "colors": {
