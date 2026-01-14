@@ -32,11 +32,6 @@
   "search": {
     "prompt": "Search Orca docs..."
   },
-  "chat": {
-    "enabled": true,
-    "openByDefault": false,
-    "prompt": "You are a helpful assistant for Orca, the leading DEX on Solana. Help users understand trading, liquidity providing, Whirlpools, Splash Pools, and the Orca SDK. Be friendly and concise."
-  },
   "topbar": {
     "style": "gradient"
   },
