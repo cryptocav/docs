@@ -28,76 +28,78 @@
       "href": "https://www.orca.so"
     }
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "getting-started/welcome-to-orca",
-        "getting-started/supported-wallets"
-      ]
-    },
-    {
-      "group": "Trading",
-      "pages": [
-        "trading/overview",
-        "trading/how-to-swap-solana",
-        "trading/understanding-slippage"
-      ]
-    },
-    {
-      "group": "Liquidity",
-      "pages": [
-        "liquidity/overview",
-        "liquidity/beginner-guide",
-        "liquidity/full-range-position",
-        "liquidity/custom-range-position",
-        "liquidity/managing-portfolio",
-        "liquidity/harvesting-yield"
-      ]
-    },
-    {
-      "group": "Pools",
-      "pages": [
-        "liquidity/creating-pool-tutorial",
-        "token-creators/splash-pools",
-        "token-creators/clmm-pools",
-        "liquidity/adaptive-fee-pools"
-      ]
-    },
-    {
-      "group": "Token Creators",
-      "pages": [
-        "token-creators/overview",
-        "token-creators/token-creation-tool",
-        "token-creators/orca-token-list",
-        "token-creators/adding-rewards"
-      ]
-    },
-    {
-      "group": "Governance",
-      "pages": [
-        "staking/governance",
-        "staking/xorca-overview",
-        "staking/dao-council"
-      ]
-    },
-    {
-      "group": "Developers",
-      "pages": [
-        "reference/developer-docs",
-        "reference/integrations",
-        "reference/definitions"
-      ]
-    },
-    {
-      "group": "Help",
-      "pages": [
-        "troubleshooting/faqs",
-        "troubleshooting/contact-support"
-      ]
-    }
-  ],
+  "navigation": {
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "getting-started/welcome-to-orca",
+          "getting-started/supported-wallets"
+        ]
+      },
+      {
+        "group": "Trading",
+        "pages": [
+          "trading/overview",
+          "trading/how-to-swap-solana",
+          "trading/understanding-slippage"
+        ]
+      },
+      {
+        "group": "Liquidity",
+        "pages": [
+          "liquidity/overview",
+          "liquidity/beginner-guide",
+          "liquidity/full-range-position",
+          "liquidity/custom-range-position",
+          "liquidity/managing-portfolio",
+          "liquidity/harvesting-yield"
+        ]
+      },
+      {
+        "group": "Pools",
+        "pages": [
+          "liquidity/creating-pool-tutorial",
+          "token-creators/splash-pools",
+          "token-creators/clmm-pools",
+          "liquidity/adaptive-fee-pools"
+        ]
+      },
+      {
+        "group": "Token Creators",
+        "pages": [
+          "token-creators/overview",
+          "token-creators/token-creation-tool",
+          "token-creators/orca-token-list",
+          "token-creators/adding-rewards"
+        ]
+      },
+      {
+        "group": "Governance",
+        "pages": [
+          "staking/governance",
+          "staking/xorca-overview",
+          "staking/dao-council"
+        ]
+      },
+      {
+        "group": "Developers",
+        "pages": [
+          "reference/developer-docs",
+          "reference/integrations",
+          "reference/definitions"
+        ]
+      },
+      {
+        "group": "Help",
+        "pages": [
+          "troubleshooting/faqs",
+          "troubleshooting/contact-support"
+        ]
+      }
+    ]
+  },
   "footer": {
     "socials": {
       "x": "https://twitter.com/orca_so",
