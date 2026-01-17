@@ -1,10 +1,8 @@
 ---
 title: Providing Liquidity on Solana
-description: Overview of trading features and how Orca works for traders.
+description: Learn how to provide liquidity on Orca and earn trading fees.
 icon: droplet
 ---
-
-### Introduction
 
 Orca's concentrated liquidity (CLMM) pools offer liquidity providers (LPs) advanced features that surpass traditional Constant Product Market Makers (CPMMs). Orca v2 enables LPs to enhance capital efficiency by concentrating assets within specific price ranges.
 

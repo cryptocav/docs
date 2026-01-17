@@ -55,14 +55,26 @@
         }
       },
       {
-        "tab": "Trading",
+        "tab": "Get Started",
         "groups": [
           {
-            "group": "Trading",
+            "group": "Getting Started",
             "pages": [
-              "trading/overview",
-              "trading/how-to-swap-solana",
-              "trading/understanding-slippage"
+              "get-started/overview",
+              "get-started/wallets"
+            ]
+          },
+          {
+            "group": "Eclipse Network",
+            "pages": [
+              "get-started/eclipse/eclipse-introduction",
+              "get-started/eclipse/eclipse-overview",
+              "get-started/eclipse/eclipse-getting-started",
+              "get-started/eclipse/eclipse-connecting",
+              "get-started/eclipse/eclipse-bridging-solana",
+              "get-started/eclipse/eclipse-bridging-eth",
+              "get-started/eclipse/eclipse-getting-eth-for-gas",
+              "get-started/eclipse/eclipse-faq"
             ]
           }
         ],
@@ -85,18 +97,68 @@
         "tab": "Liquidity",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "liquidity/overview"
+            ]
+          },
+          {
             "group": "Getting Started",
             "pages": [
-              "liquidity/overview",
-              "liquidity/beginner-guide"
+              "liquidity/getting-started/beginner-guide",
+              "liquidity/getting-started/full-range",
+              "liquidity/getting-started/custom-range"
             ]
           },
           {
             "group": "Managing Positions",
             "pages": [
-              "liquidity/full-range-position",
-              "liquidity/custom-range-position",
-              "liquidity/creating-pool-tutorial"
+              "liquidity/manage/add",
+              "liquidity/manage/withdraw",
+              "liquidity/manage/harvest",
+              "liquidity/manage/close",
+              "liquidity/manage/portfolio",
+              "liquidity/manage/sidebar",
+              "liquidity/manage/alerts"
+            ]
+          },
+          {
+            "group": "Concepts",
+            "pages": [
+              "liquidity/concepts/impermanent-loss",
+              "liquidity/concepts/ticks-and-fees",
+              "liquidity/concepts/trading-fees",
+              "liquidity/concepts/adaptive-fees"
+            ]
+          },
+          {
+            "group": "Advanced",
+            "pages": [
+              "liquidity/advanced/strategies",
+              "liquidity/advanced/charts",
+              "liquidity/advanced/create-pool"
+            ]
+          },
+          {
+            "group": "Liquidity Terminal",
+            "pages": [
+              "liquidity/terminal/overview"
+            ]
+          },
+          {
+            "group": "Eclipse Network",
+            "pages": [
+              "liquidity/eclipse/eclipse-overview",
+              "liquidity/eclipse/eclipse-beginner-guide",
+              "liquidity/eclipse/eclipse-full-range-position",
+              "liquidity/eclipse/eclipse-custom-range-position",
+              "liquidity/eclipse/eclipse-adding-liquidity",
+              "liquidity/eclipse/eclipse-withdrawing-liquidity",
+              "liquidity/eclipse/eclipse-harvesting-yield",
+              "liquidity/eclipse/eclipse-closing-position",
+              "liquidity/eclipse/eclipse-managing-portfolio",
+              "liquidity/eclipse/eclipse-portfolio-sidebar",
+              "liquidity/eclipse/eclipse-advanced-guide"
             ]
           }
         ],
@@ -116,17 +178,83 @@
         }
       },
       {
-        "tab": "Token Creators",
+        "tab": "Trade",
+        "groups": [
+          {
+            "group": "Trading",
+            "pages": [
+              "trade/overview",
+              "trade/how-to-swap",
+              "trade/slippage",
+              "trade/range-orders"
+            ]
+          },
+          {
+            "group": "Eclipse Network",
+            "pages": [
+              "trade/eclipse/eclipse-overview",
+              "trade/eclipse/eclipse-how-to-swap",
+              "trade/eclipse/eclipse-range-orders"
+            ]
+          }
+        ],
+        "global": {
+          "anchors": [
+            {
+              "anchor": "Launch App",
+              "href": "https://www.orca.so",
+              "icon": "rocket"
+            },
+            {
+              "anchor": "Support",
+              "href": "https://discord.gg/orca-so",
+              "icon": "discord"
+            }
+          ]
+        }
+      },
+      {
+        "tab": "Create",
         "groups": [
           {
             "group": "Token Creators",
             "pages": [
-              "token-creators/overview",
-              "token-creators/splash-pools",
-              "token-creators/clmm-pools",
-              "token-creators/token-creation-tool",
-              "token-creators/orca-token-list",
-              "token-creators/adding-rewards"
+              "create/overview"
+            ]
+          },
+          {
+            "group": "Create Pools",
+            "pages": [
+              "create/pools/splash",
+              "create/pools/clmm",
+              "create/pools/tool",
+              "create/pools/extensions"
+            ]
+          },
+          {
+            "group": "Rewards",
+            "pages": [
+              "create/rewards/overview"
+            ]
+          },
+          {
+            "group": "Listings",
+            "pages": [
+              "create/listings/token-list",
+              "create/listings/coingecko",
+              "create/listings/jupiter"
+            ]
+          },
+          {
+            "group": "Eclipse Network",
+            "pages": [
+              "create/eclipse/eclipse-overview",
+              "create/eclipse/eclipse-splash-pools",
+              "create/eclipse/eclipse-clmm-pools",
+              "create/eclipse/eclipse-token-creation-tool",
+              "create/eclipse/eclipse-adding-rewards",
+              "create/eclipse/eclipse-orca-token-list",
+              "create/eclipse/eclipse-coingecko-listing"
             ]
           }
         ],
@@ -147,13 +275,92 @@
       },
       {
         "tab": "Developers",
+        "icon": "brackets-curly",
         "groups": [
           {
-            "group": "Developer Resources",
+            "group": "Getting Started",
             "pages": [
-              "reference/developer-docs",
-              "reference/integrations",
-              "reference/definitions"
+              "developers/overview"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "developers/architecture/account-architecture",
+              "developers/architecture/price-and-ticks",
+              "developers/architecture/tick-arrays",
+              "developers/architecture/tokenized-positions",
+              "developers/architecture/whirlpool-fees",
+              "developers/architecture/whirlpool-parameters",
+              "developers/architecture/token-extensions"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "developers/sdks/overview",
+              "developers/sdks/environment-setup",
+              "developers/sdks/send-transaction",
+              "developers/sdks/trade",
+              "developers/sdks/utilities",
+              {
+                "group": "Position Management",
+                "pages": [
+                  "developers/sdks/positions/open-position",
+                  "developers/sdks/positions/adjust-liquidity",
+                  "developers/sdks/positions/harvest",
+                  "developers/sdks/positions/close-position",
+                  "developers/sdks/positions/monitor-positions"
+                ]
+              },
+              {
+                "group": "Pool Management",
+                "pages": [
+                  "developers/sdks/pools/create-pool",
+                  "developers/sdks/pools/monitor-pools"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              "developers/api/overview"
+            ]
+          },
+          {
+            "group": "Examples",
+            "pages": [
+              "developers/examples/cpi",
+              {
+                "group": "Tour de Whirlpool",
+                "pages": [
+                  "developers/examples/tour-de-whirlpool/overview",
+                  "developers/examples/tour-de-whirlpool/setup",
+                  "developers/examples/tour-de-whirlpool/obtain-tokens",
+                  "developers/examples/tour-de-whirlpool/check-balances",
+                  "developers/examples/tour-de-whirlpool/send-tokens"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "developers/resources/python-devs",
+              "developers/resources/unity-devs",
+              "developers/resources/account-microscope",
+              "developers/resources/errors",
+              "developers/resources/idl",
+              "developers/resources/pubkey-sollet",
+              "developers/resources/whirlpool-replayer",
+              "developers/resources/integrations"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/glossary"
             ]
           }
         ],
@@ -161,8 +368,13 @@
           "anchors": [
             {
               "anchor": "GitHub",
-              "href": "https://github.com/orca-so",
+              "href": "https://github.com/orca-so/whirlpools",
               "icon": "github"
+            },
+            {
+              "anchor": "API Docs",
+              "href": "https://api.orca.so/docs",
+              "icon": "code"
             },
             {
               "anchor": "Support",
@@ -178,9 +390,13 @@
           {
             "group": "Governance",
             "pages": [
-              "staking/governance",
-              "staking/xorca-overview",
-              "staking/dao-council"
+              "governance/overview",
+              "governance/xorca",
+              "governance/participate",
+              "governance/proposals",
+              "governance/council",
+              "governance/treasury",
+              "governance/faq"
             ]
           }
         ],
@@ -200,13 +416,32 @@
         }
       },
       {
-        "tab": "Help",
+        "tab": "Support",
         "groups": [
           {
             "group": "Help & Support",
             "pages": [
-              "troubleshooting/faqs",
-              "troubleshooting/contact-support"
+              "support/faqs",
+              "support/blocked-regions",
+              "support/recover-nfts",
+              "support/contact"
+            ]
+          },
+          {
+            "group": "Campaigns",
+            "pages": [
+              "campaigns/wavebreak/overview",
+              "campaigns/wavebreak/rewards"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "reference/glossary",
+              "reference/brand",
+              "reference/fees",
+              "reference/nft-profiles",
+              "reference/learn"
             ]
           }
         ],
@@ -224,7 +459,8 @@
   },
   "logo": {
     "light": "/logo/orca-logo.png",
-    "dark": "/logo/orca-logo.png"
+    "dark": "/logo/orca-logo.png",
+    "href": "/#top"
   },
   "navbar": {
     "links": [
@@ -242,7 +478,7 @@
   },
   "styling": {
     "codeblocks": "system",
-    "primaryTab": "Trading",
+    "primaryTab": "Trade",
     "accentColor": {
       "light": "#14b8a6",
       "dark": "#2dd4bf"
@@ -286,11 +522,11 @@
         "items": [
           {
             "label": "Developer Docs",
-            "href": "/reference/developer-docs"
+            "href": "/developers/overview"
           },
           {
             "label": "Brand Assets",
-            "href": "/reference/brand-assets"
+            "href": "/reference/brand"
           }
         ]
       }

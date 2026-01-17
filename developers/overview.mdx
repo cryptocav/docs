@@ -1,0 +1,76 @@
+---
+title: "Developer Overview"
+description: "Build on Orca's Whirlpools, the most capital-efficient liquidity layer on Solana and Eclipse."
+icon: "code"
+---
+
+# Build on Orca
+
+Orca's Whirlpool Program is an open-source concentrated liquidity automated market maker (CLMM) powering efficient DeFi operations on Solana and Eclipse. Integrate swaps, manage liquidity positions, or build custom trading applications with our comprehensive SDK suite.
+
+<CardGroup cols={2}>
+  <Card title="SDKs" icon="cube" href="/developers/sdks/overview">
+    High-level TypeScript and Rust SDKs for swaps, positions, and pool management
+  </Card>
+  <Card title="Architecture" icon="sitemap" href="/developers/architecture/account-architecture">
+    Understand Whirlpool accounts, ticks, and fee structures
+  </Card>
+  <Card title="Examples" icon="flask" href="/developers/examples/cpi">
+    Code samples and integration patterns
+  </Card>
+  <Card title="API Reference" icon="book" href="/developers/api/overview">
+    REST API for pool data and analytics
+  </Card>
+</CardGroup>
+
+## Quick Start
+
+Install the high-level TypeScript SDK:
+
+```bash
+npm install @orca-so/whirlpools @solana/kit
+```
+
+Execute a simple swap:
+
+```typescript
+import { createSolanaRpc, address } from "@solana/kit";
+import { setWhirlpoolsConfig, swapInstructions } from "@orca-so/whirlpools";
+
+// Configure for mainnet
+await setWhirlpoolsConfig("solanaMainnet");
+
+const rpc = createSolanaRpc("https://api.mainnet-beta.solana.com");
+const poolAddress = address("POOL_ADDRESS");
+const inputAmount = 1_000_000n; // 1 USDC (6 decimals)
+
+const { instructions, quote } = await swapInstructions(
+  rpc,
+  { inputAmount, mint: address("USDC_MINT") },
+  poolAddress,
+  100, // 1% slippage
+  wallet
+);
+```
+
+## Resources
+
+<CardGroup cols={3}>
+  <Card title="GitHub" icon="github" href="https://github.com/orca-so/whirlpools">
+    Source code & audits
+  </Card>
+  <Card title="npm Packages" icon="npm" href="https://www.npmjs.com/org/orca-so">
+    TypeScript SDKs
+  </Card>
+  <Card title="Rust Crates" icon="rust" href="https://crates.io/crates/orca_whirlpools">
+    Rust SDKs
+  </Card>
+</CardGroup>
+
+## Support
+
+Need help with your integration?
+
+- **Discord**: [#dev-chat](https://discord.gg/orca-so) for technical questions
+- **GitHub Issues**: Report bugs or request features
+- **API Docs**: [api.orca.so/docs](https://api.orca.so/docs) for REST endpoints
