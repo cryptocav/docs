@@ -136,6 +136,7 @@
             "pages": [
               "liquidity/advanced/strategies",
               "liquidity/advanced/charts",
+              "liquidity/advanced/simulator",
               "liquidity/advanced/create-pool"
             ]
           },
