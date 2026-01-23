@@ -5,7 +5,7 @@
 <h1 align="center">Orca Documentation Hub</h1>
 
 <p align="center">
-  Official documentation for <a href="https://www.orca.so">Orca</a> — the leading DEX on Solana and Eclipse.
+  Official documentation for <a href="https://www.orca.so">Orca</a> — the leading DEX on Solana.
 </p>
 
 ---
