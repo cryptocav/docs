@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Orca Documentation",
   "colors": {
-    "primary": "#14b8a6",
-    "light": "#2dd4bf",
-    "dark": "#0d9488"
+    "primary": "#eab308",
+    "light": "#facc15",
+    "dark": "#ca8a04"
   },
   "fonts": {
     "family": "Plus Jakarta Sans"
